@@ -11,14 +11,15 @@
   background-image: url(./imagem/avatar-vanessa.png) center;
   background-size: cover;
   background-position: center;
-  background-color: black;
+  background-color: blueviolet;
+
 }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 30px;
+  padding-left: 150px;
   padding-right: 30px;
   padding-top: 25px;
 
@@ -28,7 +29,7 @@ nav {
   color: blueviolet;
   font-size: 40xp;
   font-weight: 400;
-
+  
 
 }
 
@@ -46,7 +47,7 @@ li {
 }
 
 li:houver {
-  color: blue;
+  color: blueviolet;
   transition: 0.5s;
 }
 
@@ -59,14 +60,30 @@ li:houver {
 h1 {
   color: violet;
   font-size: 400%;
-
+  botaotopo {
+    display:scroll;
+    position:fixed !important;
+    float: right;
+    display: inline;
+    bottom:6px;
+    right:6px;
+  }
 
 }
 
 h1 span {
-  color: blue;
+  color: blueviolet;
 }
 
 meumeu-nome {
-  color: greenyellow
+  color: greenyellow;
+}
+button {
+  background-color: #008CBA;
+  color: fuchsia;
+  border: #008CBA;
+  padding: 15px 32 px;
+  font-size: 16px;
+  border-radius: 4px
+  
 }
