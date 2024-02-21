@@ -1,98 +1,93 @@
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-  font-family: 'Great Vibes', sans-serif;
+/* Estilos gerais */
+body {
+  background-color: #1a1a1a; 
+  font-family: 'roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.caixa-principal {
-  height: 50vh;
-  width: 0.5;
-  padding: 12px 36 px;
-  background-image: url(./imagem/avatar-vanessa.png) margem;
-  background-size: cover;
-  background-position: center;
-  background-color: blueviolet;
-
+/* Estilos para o cabeçalho */
+header {
+  background-color:#333;
+  color:blue;
+  padding: 20px;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 150px;
-  padding-right: 30px;
-  padding-top: 25px;
-
+.logo a {
+  color:#333;
+  text-decoration: none;
+  font-size: 24px;
 }
 
-.portifolio {
-  color: blueviolet;
-  font-size: 40xp;
-  font-weight: 400;
-  
-
-}
-
-.portifolio span {
-  color: red;
-}
-
-li {
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #555;
   color: white;
-  list-style: nome;
-  display: inline-block;
-  font-size: 25px;
-  margin-right: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-li:houver {
-  color: blueviolet;
-  transition: 0.5s;
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
 }
 
-.meu-nome {
-  position: absolute;
-  top: 50%;
-  left: 5%;
+/* Estilos para seções */
+section {
+  padding: 20px;
+  margin-top: 20px;
 }
 
-h1 {
-  color: violet;
-  font-size: 400%;
-  botaotopo {
-    display:scroll;
-    position:fixed !important;
-    float: right;
-    display: inline;
-    bottom:6px;
-    right:6px;
-  }
-
-  
+/* Estilos para a seção de banner */
+.contenido-banner {
+  text-align: center;
 }
 
-h1 span {
-  color: blueviolet;
+/* Estilos para a seção de habilidades */
+.skills .fila {
+  display: flex;
+  justify-content: space-between;
 }
 
-meumeu-nome {
-  color: greenyellow;
+/* Estilos para a seção de contato */
+.contato input[type="text"],
+.contato input[type="number"],
+.contato input[type="email"],
+.contato textarea {
+  width: 100%;
+  margin-bottom: 10px;
 }
-button {
-   
-  color:fuchsia;
-  list-style: nome;
-  display: inline-block;
-  font-size: 25px;
-  margin-right: 30px;
+
+.contato button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
   cursor: pointer;
-  
 }
-.btn-exclude {
-  float:left;
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
-.btn-canc-vis {
- float:left;
+
+footer .redes a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
 }
+.meu-elemento {
+  background-color: #333;
+  transition: background-color 0.3s ease;
+}
+.meu-elemento:hover {
+  background-color: #555;
+}
+
