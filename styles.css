@@ -1,6 +1,6 @@
 /* Estilos gerais */
 body {
-  background-color: #1a1a1a; 
+  background: rebeccapurple; 
   font-family: 'roboto', sans-serif;
   margin: 0;
   padding: 0;
@@ -8,26 +8,35 @@ body {
 
 /* Estilos para o cabeçalho */
 header {
-  background-color:#333;
+  background: color #040404;;
   color:blue;
   padding: 20px;
 }
 
 .logo a {
-  color:#333;
+  color:antiquewhite;
   text-decoration: none;
   font-size: 24px;
+}
+.foto img {
+  opacity: 0; /* Começa com a imagem invisível */
+  transition: opacity 0.5s ease; /* Adiciona uma transição suave */
+}
+
+.foto:hover img {
+  opacity: 1; /* Quando o mouse passa sobre a div, a imagem aparece */
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
-  background-color: #555;
+  background-color: whitesmoke;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  
 }
 
 
