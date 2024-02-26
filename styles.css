@@ -1,17 +1,40 @@
 /* Estilos gerais */
 body {
   background: rebeccapurple; 
-  font-family: 'roboto', sans-serif;
+  cursor: pointer;
+  font-family: "bold "(negrito);
   margin: 0;
   padding: 0;
 }
 
 /* Estilos para o cabeçalho */
 header {
-  background: color #040404;;
+  background: color#040404;;
   color:blue;
   padding: 20px;
 }
+section {
+  background-image: url("imagem/fundotelamatematico.png");
+
+}
+
+
+section{
+  background-image: 0;
+  body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("imagem/Captura\ de\ tela\ 2024-01-04\ 203251.png");
+    background-size: cover;
+}
+
+}
+
 
 .logo a {
   color:antiquewhite;
