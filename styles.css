@@ -13,9 +13,14 @@ header {
   color:blue;
   padding: 20px;
 }
-section {
-  background-image: url("imagem/fundotelamatematico.png");
-
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("");
+  background-size: cover;
+}
+  section {
+    background-repeat: no-repeat;
 }
 
 
@@ -29,8 +34,9 @@ section{
 .container {
     width: 100vw;
     height: 100vh;
-    background-image: url("imagem/Captura\ de\ tela\ 2024-01-04\ 203251.png");
+    background-image: url("imagem/fundotelamatematico.png");
     background-size: cover;
+
 }
 
 }
